@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f2f5;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  background-color: #f1f7ff;
+  padding: 30px 75px;
+}
+.hero-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-Wrapper span {
+  font-size: 22px;
+  font-weight: 600;
+}
+.hero-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.hero-right a img {
+  width: 32px;
+  height: 32px;
+}
+.hero-right a svg {
+  width: 30px;
+  height: 30px;
+  color: #242424;
+}
+
+.small-container {
+  margin: 0 auto;
+  max-width: 1010px;
+  /* min-height: calc(100vh - 100px); */
+  padding: 0 25px;
+  width: 100%;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+}
+.result-bar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 30px;
+}
+.result-bar .result-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.result-bar .result-box .box-title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+span.box\=value {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text-area {
+  background-color: #fff;
+  border: 0;
+  color: #242424;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-height: 400px;
+  outline: none;
+  padding: 30px;
+  resize: none;
+}
+.text-area::placeholder {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.bottom-result-bar {
+  background: #ffffff;
+  padding: 30px 27px;
+  display: flex;
+  justify-content: space-around;
+  padding: 26px 30px;
+}
+.footer {
+  margin-top: 160px;
+  background-color: #f1f7ff;
+  padding: 25px 75px;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-wrapper span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #242424;
+  line-height: 0px;
+}
+.footer-box a span {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #242424;
+  line-height: 0px;
+}
+span.box-value {
+  font-size: 20px;
+  font-weight: 700;
+}
+.hero-right a.fb svg {
+  color: #0866ff;
+}
+.hero-right a.li svg {
+  color: #007ab5;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
